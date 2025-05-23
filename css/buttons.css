@@ -1,0 +1,26 @@
+/* Estilos de Botones */
+:where(.game-modal, .keyboard) button {
+    color: var(--PANTONE107C);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: var(--PANTONE3537C);
+    border-radius: 4px;    
+    text-transform: uppercase;
+}
+
+.keyboard button {
+    padding: 7px;
+    width: calc(100% / 9 - 5px);
+}
+
+.keyboard button[disabled] {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+:where(.game-modal, .keyboard) button:hover {
+    background: var(--PANTONE3536C);
+}

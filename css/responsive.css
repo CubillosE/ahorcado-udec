@@ -1,0 +1,26 @@
+/* Estilos Responsivos */
+@media (max-width: 782px) {
+    .container {
+        flex-direction: column;
+        padding: 30px 15px;
+        align-items: center;
+    }
+    .hangman-box img {
+        max-width: 200px;
+    }
+    .hangman-box h1 {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .welcome-screen .content {
+        margin: 0 20px;
+    }
+    .welcome-screen h1 {
+        font-size: 1.7rem;
+    }
+    .welcome-screen p {
+        font-size: 1rem;
+    }
+}

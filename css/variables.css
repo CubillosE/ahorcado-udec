@@ -1,0 +1,31 @@
+:root {
+    --PANTONE7716C: #00A99D;
+    --PANTONE3561C: #79C000;
+    --PANTONE3537C: #00482B;
+    --PANTONE3536C: #007B3E;
+    --PANTONE425C: #4D4D4D;
+    --PANTONE367C: #91C256;
+    --PANTONE144C: #F7931E;
+    --PANTONE110C: #DAAA00;
+    --PANTONE107C: #FBE122;
+    --ERROR: #ff0000;
+}
+
+@import url("http://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: center;
+    min-height: 100vh;
+    background: var(--PANTONE3537C);
+}

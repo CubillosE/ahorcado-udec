@@ -1,0 +1,47 @@
+/* Estilos de la Pantalla de Palabra */
+.word-display {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.word-display .letter {
+    width: 28px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #000;
+}
+
+.word-display .letter.guessed {
+    border-color: transparent;
+    margin: -40px 0 35px;
+}
+
+/* Estilos de la Caja de Juego */
+.game-box h4 {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.game-box h4 b {
+    font-weight: 600;
+}
+
+.game-box .guesses-text b {
+    color: var(--ERROR);
+}
+
+.game-box .keyboard {
+    display: flex;
+    gap: 5px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

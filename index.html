@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado UDEC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/script.js"></script>
+</head>
+<body>
+    <div class="welcome-screen">
+        <div class="content">
+            <h1>¡Bienvenido al Juego del Ahorcado!</h1>
+            <img src="images/cheer1.svg" alt="" srcset="">
+            <p>Un juego de palabras sobre Cheerleading de la Universidad de Cundinamarca</p>
+            <button class="start-game">Comenzar Juego</button>
+        </div>
+    </div>
+    <div class="game-modal">
+        <div class="content">
+            <img src="images/hangman/lost.gif" alt="gif">
+            <h4>¡Juego terminado!</h4>
+            <p>La palabra correcta era: <b>arcoiris</b></p>
+            <button class="play-again">Jugar de nuevo</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hangman-box">
+            <img src="images/hangman/hangman-0.svg" alt="hangman-img">
+            <h1>Juego del Ahorcado</h1>
+        </div>
+        <div class="game-box">
+            <ul class="word-display"></ul>
+            <h4 class="hint-text">
+                Pista:
+                <b></b>
+            </h4>
+            <h4 class="guesses-text">
+                Letras Incorrectas:
+                <b>0 / 6</b>
+            </h4>
+            <div class="keyboard"></div>
+        </div>
+    </div>
+</body>
+</html>
